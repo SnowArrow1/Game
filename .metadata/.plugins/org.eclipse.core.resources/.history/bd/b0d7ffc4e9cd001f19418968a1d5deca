@@ -1,0 +1,14 @@
+package main;
+
+import javax.swing.JFrame;
+
+public class Main {
+	
+	JFrame window = new JFrame(); //create game window
+	window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	window.setResizeable(false);
+	window.setTitle("2D Test");
+	
+	window.setLocationRelativeTo(null);
+	
+}
